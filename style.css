@@ -1,0 +1,266 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.jumts {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 600px solid transparent;
+    border-right: 600px solid transparent;
+    border-bottom: 600px solid maroon;
+    top: 1200px;
+    left: 140px;
+    z-index:1;
+  }
+  .skurstenis {
+    width: 100px;
+    height: 250px;
+    background-color: darkgray;
+    position: absolute;
+    top:1350px;
+    left: 350px;
+  }
+  .siena {
+    background-color: lightgrey;
+    width: 1050px;
+    height: 650px;
+    position: absolute;
+    top: 1800px;
+    left: 210px;
+  }
+  .logs {
+    display: grid;
+    position:absolute;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 150px 150px;
+    right: 350px;
+    bottom: 200px;
+  }
+  .ruts-1 {
+    background-color: lightblue;
+    border: 2px solid white;
+  }
+  .ruts-2 {
+    background-color: lightblue;
+    border: 2px solid white;
+  }
+  .ruts-3 {
+    background-color: lightblue;
+    border: 2px solid white;
+  }
+  .ruts-4 {
+    background-color: lightblue;
+    border: 2px solid white;
+  }
+
+/* Css mašīnai */
+.masina{
+    position:absolute;
+    left: 1600px;
+    top: 1950px;
+}
+  .masinas-jumts {
+    margin-left: 100px;
+    width: 400px;
+    height: 200px;
+    transform: skew(10deg);
+    border: 20px solid #4a4c48;
+    border-radius: 20px;
+    border-right: 0;
+
+  }
+  
+  .masinas-jumts::after {
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: 0;
+    width: 400px;
+    height: 100%;
+    transform: translateX(80%) skew(35deg);
+    border: 20px solid #4a4c48;
+    border-left: 0;
+    border-radius: 20px;
+  }
+  
+  .masinas-jumts::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: -4px;
+    width: 200px;
+    height: 100%;
+    transform: translateX(70%) skew(10deg);
+    border: 20px solid #4a4c48;
+    border-right: 0;
+    border-radius: 2px;
+    border-top: 0;
+  }
+  
+  .masinas-pamats {
+    width: 1200px;
+    height: 200px;
+    background-color: orangered;
+    border-radius: 85px;
+    position: relative;
+  }
+  .masinas-aizmugurejais-lukturis {
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    background-color: maroon;
+    z-index: 1;
+    border-radius: 45px;
+    transform: rotate(46deg);
+    top: 4%;
+    left: 1%;
+  }
+  
+  .masinas-prieksejais-lukturis{
+      position: absolute;
+      width: 50px;
+      height: 90px;
+      background-color:antiquewhite;
+      z-index: 1;
+      border-radius: 45px;
+      transform: rotate(-25deg);
+      top: 10%;
+      left:95%;
+  }
+  
+  .masinas-durvju-rokturis{
+      position: absolute;
+      width: 80px;
+      height: 20px;
+      background-color: lightgray;
+      z-index: 1;
+      border-radius:10px;
+      top: 50%;
+      left:50%;
+  }
+  
+  .ritenis-1 {
+    background-color: rgb(179, 172, 172);
+    border-radius: 50%;
+    border: 50px solid black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 75%;
+    right: 10%;
+  }
+
+  .ritenis-2 {
+    background-color: rgb(179, 172, 172);
+    border-radius: 50%;
+    border: 50px solid black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 75%;
+    left: 12%;
+  }
+
+
+.cilveks{
+    position: absolute;
+    top: 1800px;
+    right: 2500px;
+
+}
+
+.galva{
+    height: 160px;
+    width:100px;
+    background-color: rgb(208, 193, 175);
+    border-radius: 40%;
+}
+
+.acis{
+    display: flex;
+    justify-content: space-around;
+    position:absolute;
+    gap: 10px;
+    top: 35px;
+    left: 15px;
+}
+.acs{
+    Height:20px;
+    width:10px;
+    border: 10px solid white;
+    background-color: green;
+    border-radius: 40%;
+}
+.mute{
+    height: 30px;
+    width:30px;
+    background-color: rgb(181, 152, 114);
+    border-radius: 50%;
+    position: absolute;
+    left: 35%;
+    top:100px;
+    border: 5px solid maroon;
+}
+
+.kermenis{
+    Height: 300px;
+    width: 150px;
+    background-color: blueviolet;
+    border-radius: 30%;
+    position: absolute;
+    left: -20px;
+}
+
+
+.roka-1{
+    Height: 250px;
+    width: 25px;
+    background-color:bisque;
+    border-radius: 15px;
+    position: absolute;
+    left: -55px;
+    transform: rotate(20deg);
+    z-index: 1;
+}
+
+.roka-2{
+    Height: 250px;
+    width: 25px;
+    background-color:bisque;
+    border-radius: 15px;
+    position: absolute;
+    right: -55px;
+    transform: rotate(-20deg);
+    z-index: 1;
+}
+
+.kaja-1{
+    Height: 250px;
+    width: 60px;
+    background-color: blue; 
+    border-radius: 15px;
+    position: absolute;
+    left: -40px;
+    top:450px;
+    transform: rotate(15deg);
+    z-index: 1;
+}
+
+.kaja-2{
+    Height: 250px;
+    width: 60px;
+    background-color:blue;
+    border-radius: 15px;
+    position: absolute;
+    right: -40px;
+    top:450px;
+    transform: rotate(-15deg);
+    z-index: 1;
+}
+
+.kakis{
+    background-color: red;
+}
